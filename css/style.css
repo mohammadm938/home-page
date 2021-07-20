@@ -1,0 +1,242 @@
+@import "font.css";
+
+* {
+  box-sizing: border-box;
+  font-family: "LemonMike";
+}
+body {
+  background-image: linear-gradient(
+    78deg,
+    hsla(225, 15%, 84.3%, 1) 0%,
+    hsla(225, 13.3%, 54.3%, 1) 100%
+  );
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.clearFix {
+  clear: both;
+}
+#content {
+  width: 1000px;
+  height: 600px;
+  margin: auto;
+  background-color: #40485b;
+  position: relative;
+}
+
+/* Header */
+
+#header {
+  height: 100px;
+}
+#header-right {
+  position: relative;
+  float: right;
+}
+.black-bg-menu {
+  width: 100px;
+  height: 100px;
+  background-color: #292f3f;
+  text-align: center;
+  float: right;
+}
+#header-right img {
+  width: 40px;
+  margin: 34px 0;
+}
+#header-right .login {
+  display: inline-block;
+  background-image: linear-gradient(
+    82deg,
+    hsla(293, 49.8%, 56.3%, 1) 0%,
+    hsla(185, 51%, 52%, 1) 100%
+  );
+  border-radius: 90px;
+  padding: 4px 5px;
+  margin-right: 36px;
+  text-align: center;
+  position: relative;
+  top: 30px;
+}
+#header-right .bg {
+  background-color: #40485b;
+  padding: 8px 18px;
+  text-align: center;
+  border-radius: 90px;
+}
+#header-left {
+  float: left;
+}
+#header-left li {
+  display: inline-block;
+  padding: 7px 14px;
+  position: relative;
+  top: 18px;
+}
+#header-left :not(.first) {
+  margin-right: 16px;
+}
+
+/* Articles */
+#article {
+  margin-top: 20px;
+  position: relative;
+  margin-top: 40px;
+  padding-top: 20px;
+}
+#article-right {
+  float: right;
+  position: relative;
+  right: 32px;
+}
+#article-right img {
+  width: 390px;
+}
+#article-left {
+  float: left;
+  position: absolute;
+  left: 100px;
+}
+.article-header h2 {
+  text-decoration: underline;
+}
+.article-header h1 {
+  font-size: 48px;
+}
+.article-header h2,
+.article-header h1 {
+  margin: 0;
+  color: #fff;
+  font-family: "LemonMikeItalic";
+}
+.article-content {
+  width: 468px;
+}
+.article-content p {
+  color: #fff;
+  line-height: 34px;
+  font-size: 12px;
+}
+
+.article-footer {
+  position: relative;
+}
+.article-footer .gradient-bg {
+  background-image: linear-gradient(
+    82deg,
+    hsla(293, 49.8%, 56.3%, 1) 0%,
+    hsla(185, 51%, 52%, 1) 100%
+  );
+  border-radius: 50%;
+  text-align: center;
+  width: 70px;
+  height: 70px;
+  padding: 5px 5px;
+  display: inline-block;
+}
+.article-footer .article-img-bg {
+  background-color: #40485b;
+  text-align: center;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  padding: 16px 24px;
+}
+.article-footer img {
+  width: 18px;
+}
+.article-footer a {
+  color: #f3fdff;
+  position: absolute;
+  top: 25px;
+  left: 78px;
+}
+
+/* Footer */
+#footer {
+  background-image: linear-gradient(
+    95deg,
+    hsla(298, 38.9%, 55.1%, 1) 0%,
+    hsla(185, 49.3%, 55.1%, 1) 100%
+  );
+  margin-top: -20px;
+  width: 540px;
+  height: 115px;
+  padding-top: 6px;
+}
+#backArrow {
+  float: left;
+  width: 30px;
+  margin-top: 28px;
+  margin-left: 28px;
+}
+#footer li {
+  display: inline-block;
+}
+#footer li {
+  float: right;
+  margin-right: 80px;
+}
+#footer .iconText {
+  margin-top: 5px;
+}
+#footer .iconText img {
+  width: 40px;
+  text-align: center;
+  display: block;
+  margin-bottom: 10px;
+}
+#footer .iconText .note {
+  width: 30px;
+}
+#footer .iconText img:not(.note) {
+  position: relative;
+  left: 20px;
+}
+
+#bg-white {
+  position: absolute;
+  top: 234px;
+  background-color: #fff;
+  width: 48px;
+  height: 64px;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+#circle-bg-black {
+  background-color: #ccc;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: relative;
+  top: 27px;
+  left: 26px;
+}
+.article-social-media ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.article-social-media hr {
+  background-color: #696f7b;
+  width: 4px;
+  height: 170px;
+  position: absolute;
+  bottom: 136px;
+  right: 17px;
+  border: none;
+}
+.article-social-media {
+  width: 40px;
+  position: absolute;
+  right: 1px;
+  bottom: 0;
+}
+.article-social-media img {
+  width: 40px;
+}
+.article-social-media li:not(.first) {
+  margin-bottom: 10px;
+}
